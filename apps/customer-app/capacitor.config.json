@@ -1,0 +1,12 @@
+{
+  "appId": "com.khidmat.app",
+  "appName": "KhidmatAI",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0,
+      "launchAutoHide": true,
+      "backgroundColor": "#ffffff"
+    }
+  }
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "PRV-001", "name": "Tariq Plumber", "name_urdu": "طارق پلمبر",
+    "phone": "+92-300-1234567", "city": "Karachi", "area": "DHA Phase 5",
+    "lat": 24.8138, "lng": 67.0311, "gender": "male", "profile_verified": true,
+    "reputation_score": 88.0,
+    "services": [{"service_type": "plumbing", "base_rate_pkr": 800, "complexity_supported": ["basic","intermediate","complex"], "years_experience": 8}],
+    "metrics": {"total_jobs": 210, "completed_jobs": 198, "cancelled_jobs": 5, "avg_rating": 4.6, "rating_count": 120, "on_time_rate": 0.91, "avg_response_time_minutes": 18}
+  },
+  {
+    "id": "PRV-002", "name": "Saleem Electrician", "name_urdu": "سلیم الیکٹریشن",
+    "phone": "+92-333-2345678", "city": "Karachi", "area": "Gulshan-e-Iqbal",
+    "lat": 24.9215, "lng": 67.0998, "gender": "male", "profile_verified": true,
+    "reputation_score": 82.0,
+    "services": [{"service_type": "electrical", "base_rate_pkr": 1000, "complexity_supported": ["basic","intermediate"], "years_experience": 5}],
+    "metrics": {"total_jobs": 145, "completed_jobs": 134, "cancelled_jobs": 8, "avg_rating": 4.3, "rating_count": 89, "on_time_rate": 0.84, "avg_response_time_minutes": 25}
+  },
+  {
+    "id": "PRV-003", "name": "Rashid AC Tech", "name_urdu": "راشد اے سی ٹیکنیشن",
+    "phone": "+92-321-3456789", "city": "Karachi", "area": "Clifton",
+    "lat": 24.8052, "lng": 67.0309, "gender": "male", "profile_verified": true,
+    "reputation_score": 91.0,
+    "services": [{"service_type": "ac_service", "base_rate_pkr": 1200, "complexity_supported": ["basic","intermediate","complex"], "years_experience": 10, "certifications": ["HVAC Certified"]}],
+    "metrics": {"total_jobs": 320, "completed_jobs": 308, "cancelled_jobs": 3, "avg_rating": 4.8, "rating_count": 201, "on_time_rate": 0.95, "avg_response_time_minutes": 15}
+  },
+  {
+    "id": "PRV-004", "name": "Imran AC Technician", "name_urdu": "عمران اے سی والا",
+    "phone": "+92-345-4567890", "city": "Karachi", "area": "PECHS",
+    "lat": 24.8770, "lng": 67.0600, "gender": "male", "profile_verified": false,
+    "reputation_score": 71.0,
+    "services": [{"service_type": "ac_service", "base_rate_pkr": 900, "complexity_supported": ["basic","intermediate"], "years_experience": 3}],
+    "metrics": {"total_jobs": 67, "completed_jobs": 58, "cancelled_jobs": 7, "avg_rating": 3.9, "rating_count": 34, "on_time_rate": 0.74, "avg_response_time_minutes": 40}
+  },
+  {
+    "id": "PRV-005", "name": "Nazia Home Tutor", "name_urdu": "نازیہ ہوم ٹیوٹر",
+    "phone": "+92-300-5678901", "city": "Karachi", "area": "North Nazimabad",
+    "lat": 24.9480, "lng": 67.0280, "gender": "female", "profile_verified": true,
+    "reputation_score": 85.0,
+    "services": [{"service_type": "tutoring", "base_rate_pkr": 600, "complexity_supported": ["basic","intermediate"], "years_experience": 6}],
+    "metrics": {"total_jobs": 180, "completed_jobs": 175, "cancelled_jobs": 2, "avg_rating": 4.7, "rating_count": 112, "on_time_rate": 0.97, "avg_response_time_minutes": 12}
+  },
+  {
+    "id": "PRV-006", "name": "Ahmed Driver", "name_urdu": "احمد ڈرائیور",
+    "phone": "+92-312-6789012", "city": "Karachi", "area": "Saddar",
+    "lat": 24.8607, "lng": 67.0108, "gender": "male", "profile_verified": true,
+    "reputation_score": 79.0,
+    "services": [{"service_type": "driver", "base_rate_pkr": 500, "complexity_supported": ["basic"], "years_experience": 7}],
+    "metrics": {"total_jobs": 890, "completed_jobs": 845, "cancelled_jobs": 22, "avg_rating": 4.2, "rating_count": 430, "on_time_rate": 0.87, "avg_response_time_minutes": 20}
+  },
+  {
+    "id": "PRV-007", "name": "Ustad Farhan Painter", "name_urdu": "استاد فرحان پینٹر",
+    "phone": "+92-333-7890123", "city": "Hyderabad", "area": "Latifabad",
+    "lat": 25.3960, "lng": 68.3578, "gender": "male", "profile_verified": true,
+    "reputation_score": 80.0,
+    "services": [{"service_type": "painting", "base_rate_pkr": 700, "complexity_supported": ["basic","intermediate"], "years_experience": 12}],
+    "metrics": {"total_jobs": 98, "completed_jobs": 93, "cancelled_jobs": 4, "avg_rating": 4.4, "rating_count": 67, "on_time_rate": 0.88, "avg_response_time_minutes": 30}
+  },
+  {
+    "id": "PRV-008", "name": "Zubair Plumber Hyd", "name_urdu": "زبیر پلمبر حیدرآباد",
+    "phone": "+92-300-8901234", "city": "Hyderabad", "area": "Qasimabad",
+    "lat": 25.3630, "lng": 68.3440, "gender": "male", "profile_verified": false,
+    "reputation_score": 68.0,
+    "services": [{"service_type": "plumbing", "base_rate_pkr": 600, "complexity_supported": ["basic","intermediate"], "years_experience": 4}],
+    "metrics": {"total_jobs": 55, "completed_jobs": 47, "cancelled_jobs": 6, "avg_rating": 3.7, "rating_count": 28, "on_time_rate": 0.72, "avg_response_time_minutes": 45}
+  },
+  {
+    "id": "PRV-009", "name": "Sana Cleaning Services", "name_urdu": "ثناء کلیننگ سروسز",
+    "phone": "+92-321-9012345", "city": "Hyderabad", "area": "Hirabad",
+    "lat": 25.3700, "lng": 68.3600, "gender": "female", "profile_verified": true,
+    "reputation_score": 84.0,
+    "services": [{"service_type": "cleaning", "base_rate_pkr": 800, "complexity_supported": ["basic","intermediate"], "years_experience": 5}],
+    "metrics": {"total_jobs": 130, "completed_jobs": 125, "cancelled_jobs": 3, "avg_rating": 4.5, "rating_count": 88, "on_time_rate": 0.92, "avg_response_time_minutes": 20}
+  },
+  {
+    "id": "PRV-010", "name": "Khalid Electrician ISB", "name_urdu": "خالد الیکٹریشن اسلام آباد",
+    "phone": "+92-345-0123456", "city": "Islamabad", "area": "G-13",
+    "lat": 33.6693, "lng": 72.9924, "gender": "male", "profile_verified": true,
+    "reputation_score": 87.0,
+    "services": [{"service_type": "electrical", "base_rate_pkr": 1100, "complexity_supported": ["basic","intermediate","complex"], "years_experience": 9}],
+    "metrics": {"total_jobs": 175, "completed_jobs": 168, "cancelled_jobs": 4, "avg_rating": 4.6, "rating_count": 105, "on_time_rate": 0.93, "avg_response_time_minutes": 22}
+  },
+  {
+    "id": "PRV-011", "name": "Faisal AC Expert ISB", "name_urdu": "فیصل اے سی ماہر",
+    "phone": "+92-300-1122334", "city": "Islamabad", "area": "F-10",
+    "lat": 33.7000, "lng": 72.9783, "gender": "male", "profile_verified": true,
+    "reputation_score": 93.0,
+    "services": [{"service_type": "ac_service", "base_rate_pkr": 1400, "complexity_supported": ["basic","intermediate","complex"], "years_experience": 12, "certifications": ["HVAC Certified","Samsung Authorized"]}],
+    "metrics": {"total_jobs": 405, "completed_jobs": 398, "cancelled_jobs": 2, "avg_rating": 4.9, "rating_count": 280, "on_time_rate": 0.97, "avg_response_time_minutes": 12}
+  },
+  {
+    "id": "PRV-012", "name": "Amjad Plumber ISB", "name_urdu": "امجد پلمبر اسلام آباد",
+    "phone": "+92-333-2233445", "city": "Islamabad", "area": "G-11",
+    "lat": 33.6811, "lng": 72.9958, "gender": "male", "profile_verified": true,
+    "reputation_score": 78.0,
+    "services": [{"service_type": "plumbing", "base_rate_pkr": 900, "complexity_supported": ["basic","intermediate"], "years_experience": 6}],
+    "metrics": {"total_jobs": 112, "completed_jobs": 103, "cancelled_jobs": 7, "avg_rating": 4.1, "rating_count": 72, "on_time_rate": 0.82, "avg_response_time_minutes": 28}
+  },
+  {
+    "id": "PRV-013", "name": "Razia Maid Services", "name_urdu": "رازیہ ماسی سروس",
+    "phone": "+92-321-3344556", "city": "Islamabad", "area": "E-11",
+    "lat": 33.7203, "lng": 73.0169, "gender": "female", "profile_verified": true,
+    "reputation_score": 81.0,
+    "services": [{"service_type": "maid", "base_rate_pkr": 700, "complexity_supported": ["basic","intermediate"], "years_experience": 8}],
+    "metrics": {"total_jobs": 260, "completed_jobs": 250, "cancelled_jobs": 6, "avg_rating": 4.4, "rating_count": 155, "on_time_rate": 0.89, "avg_response_time_minutes": 18}
+  },
+  {
+    "id": "PRV-014", "name": "Naveed Carpenter", "name_urdu": "نوید بڑھئی",
+    "phone": "+92-300-4455667", "city": "Karachi", "area": "Korangi",
+    "lat": 24.8315, "lng": 67.1285, "gender": "male", "profile_verified": false,
+    "reputation_score": 72.0,
+    "services": [{"service_type": "carpentry", "base_rate_pkr": 1000, "complexity_supported": ["basic","intermediate","complex"], "years_experience": 15}],
+    "metrics": {"total_jobs": 88, "completed_jobs": 80, "cancelled_jobs": 6, "avg_rating": 4.0, "rating_count": 50, "on_time_rate": 0.78, "avg_response_time_minutes": 35}
+  },
+  {
+    "id": "PRV-015", "name": "Hassan Mechanic", "name_urdu": "حسن مکینک",
+    "phone": "+92-312-5566778", "city": "Islamabad", "area": "G-9",
+    "lat": 33.6974, "lng": 73.0392, "gender": "male", "profile_verified": true,
+    "reputation_score": 83.0,
+    "services": [{"service_type": "mechanic", "base_rate_pkr": 1200, "complexity_supported": ["basic","intermediate","complex"], "years_experience": 10}],
+    "metrics": {"total_jobs": 195, "completed_jobs": 183, "cancelled_jobs": 8, "avg_rating": 4.3, "rating_count": 120, "on_time_rate": 0.86, "avg_response_time_minutes": 25}
+  }
+]

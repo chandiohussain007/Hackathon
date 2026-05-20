@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">KhidmatAI</string>
+    <string name="title_activity_main">KhidmatAI</string>
+    <string name="package_name">com.khidmatai.app</string>
+    <string name="custom_url_scheme">com.khidmatai.app</string>
+</resources>

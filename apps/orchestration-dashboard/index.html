@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KhidmatAI — Observability & Orchestration Dashboard</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+    <!-- Material Symbols -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    <!-- Tailwind CDN with Forms plug -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "obsidian": "#0b0c10",
+              "cyber-panel": "rgba(20, 24, 33, 0.7)",
+              "cyber-border": "rgba(255, 255, 255, 0.08)",
+              "neon-green": "#00ff66",
+              "neon-blue": "#00ccff",
+              "neon-purple": "#bd00ff",
+              "neon-yellow": "#ffcc00",
+              "neon-red": "#ff3333",
+            },
+            fontFamily: {
+              sans: ["Inter", "system-ui", "sans-serif"],
+              mono: ["JetBrains Mono", "monospace"],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        background: #0b0c10;
+        color: #e2e8f0;
+      }
+      .cyber-glow-green { box-shadow: 0 0 20px rgba(0, 255, 102, 0.15); }
+      .cyber-glow-blue { box-shadow: 0 0 20px rgba(0, 204, 255, 0.15); }
+      .cyber-glow-purple { box-shadow: 0 0 20px rgba(189, 0, 255, 0.15); }
+      .neon-glow-text {
+        text-shadow: 0 0 8px rgba(0, 255, 102, 0.5);
+      }
+      .custom-scrollbar::-webkit-scrollbar { width: 6px; height: 6px; }
+      .custom-scrollbar::-webkit-scrollbar-track { background: rgba(0,0,0,0.2); }
+      .custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 4px; }
+      .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.2); }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

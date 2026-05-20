@@ -1,0 +1,103 @@
+[
+  {
+    "id": "demo-01",
+    "label": "AC Emergency (Spec Example)",
+    "raw_input": "AC bilkul kaam nahi kar raha, kal subah G-13 mein technician chahiye, budget zyada nahi hai",
+    "expected_service": "ac_service",
+    "expected_urgency": "normal",
+    "location_label": "G-13 Islamabad",
+    "user_lat": 33.6693,
+    "user_lng": 72.9924
+  },
+  {
+    "id": "demo-02",
+    "label": "Plumber Emergency (Typos + Urgency)",
+    "raw_input": "bhai plummer chahye abhi ghr ka pipe leak ho rha hai paani aa rha h",
+    "expected_service": "plumbing",
+    "expected_urgency": "emergency",
+    "location_label": "Karachi",
+    "user_lat": 24.8607,
+    "user_lng": 67.0011
+  },
+  {
+    "id": "demo-03",
+    "label": "English Electrician Request",
+    "raw_input": "Need electrician today 6pm Karachi DHA Phase 5 for wiring issue",
+    "expected_service": "electrical",
+    "expected_urgency": "urgent",
+    "location_label": "DHA Karachi",
+    "user_lat": 24.8138,
+    "user_lng": 67.0311
+  },
+  {
+    "id": "demo-04",
+    "label": "Tutor (Roman Urdu)",
+    "raw_input": "ustani chahiye meri beti ko math padhane ke liye Hyderabad mein kal",
+    "expected_service": "tutoring",
+    "expected_urgency": "normal",
+    "location_label": "Hyderabad",
+    "user_lat": 25.3960,
+    "user_lng": 68.3578
+  },
+  {
+    "id": "demo-05",
+    "label": "Driver Airport (Mixed)",
+    "raw_input": "driver chahye airport k liye kal subah 5 baj Islamabad",
+    "expected_service": "driver",
+    "expected_urgency": "normal",
+    "location_label": "Islamabad",
+    "user_lat": 33.6844,
+    "user_lng": 73.0479
+  },
+  {
+    "id": "demo-06",
+    "label": "Urdu Script Input",
+    "raw_input": "مجھے کل صبح G-13 میں AC سروس کے لیے ٹیکنیشن چاہیے",
+    "expected_service": "ac_service",
+    "expected_urgency": "normal",
+    "location_label": "G-13 Islamabad",
+    "user_lat": 33.6693,
+    "user_lng": 72.9924
+  },
+  {
+    "id": "demo-07",
+    "label": "Ambiguous Input (Low Confidence)",
+    "raw_input": "bhai koi hai kuch kaam karna hai ghar mein",
+    "expected_service": "unknown",
+    "expected_urgency": "normal",
+    "location_label": "Karachi",
+    "user_lat": 24.8607,
+    "user_lng": 67.0011
+  },
+  {
+    "id": "demo-08",
+    "label": "Maid Service (Hyderabad)",
+    "raw_input": "maasi chahiye ghar ka kaam karne ke liye Latifabad Hyderabad subah",
+    "expected_service": "maid",
+    "expected_urgency": "normal",
+    "location_label": "Latifabad Hyderabad",
+    "user_lat": 25.3960,
+    "user_lng": 68.3578
+  },
+  {
+    "id": "demo-09",
+    "label": "No Provider Available (Stress Test)",
+    "raw_input": "pest control chahiye abhi Quetta mein",
+    "expected_service": "pest_control",
+    "expected_urgency": "emergency",
+    "location_label": "Quetta",
+    "user_lat": 30.1798,
+    "user_lng": 66.9750
+  },
+  {
+    "id": "demo-10",
+    "label": "Dispute — Provider No-Show",
+    "raw_input": "technician nahi aaya booking ke baad bhi 2 ghante wait kiya",
+    "dispute_mode": true,
+    "dispute_description": "technician nahi aaya booking ke baad bhi 2 ghante wait kiya",
+    "expected_dispute_type": "no_show",
+    "location_label": "Islamabad",
+    "user_lat": 33.6844,
+    "user_lng": 73.0479
+  }
+]
